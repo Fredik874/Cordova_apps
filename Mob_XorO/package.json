@@ -1,0 +1,30 @@
+{
+  "name": "io.github.v4l1k",
+  "displayName": "XorO",
+  "version": "1.0.0",
+  "description": "Game about X and O.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "V4L1K",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "1"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
